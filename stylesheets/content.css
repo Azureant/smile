@@ -1,0 +1,69 @@
+.faces1{
+ width: 160px;
+ height: 160px;
+ display: block;
+ position: absolute;
+ background: url('../img/smile.png');
+ animation: faces1 2s steps(1) infinite;
+}
+@keyframes faces1 {
+  0% {background-position: 0px 0px;}
+  33% {background-position: -160px 0px;}
+  66% {background-position: -320px 0px;}
+}
+.faces2{
+ width: 160px;
+ height: 160px;
+ display: block;
+ position: absolute;
+ left: 200px;
+ background: url('../img/smile.png');
+ animation: faces2 2s steps(1) infinite;
+}
+@keyframes faces2 {
+  0% {background-position: -480px 0px;}
+  33% {background-position: -640px 0px;}
+  66% {background-position: -800px 0px;}
+}
+.faces3{
+ width: 160px;
+ height: 160px;
+ display: block;
+ position: absolute;
+ left: 400px;
+ background: url('../img/smile.png');
+ animation: faces3 2s steps(1) infinite;
+}
+@keyframes faces3 {
+  0% {background-position: -960px 0px;}
+  33% {background-position: -1120px 0px;}
+  66% {background-position: -1280px 0px;}
+}
+.faces4{
+ width: 160px;
+ height: 160px;
+ display: block;
+ position: absolute;
+ left: 600px;
+ background: url('../img/smile.png');
+ animation: faces4 2s steps(1) infinite;
+}
+@keyframes faces4 {
+  0% {background-position: -1440px 0px;}
+  33% {background-position: -1600px 0px;}
+  66% {background-position: -1760px 0px;}
+}
+.faces5{
+ width: 160px;
+ height: 160px;
+ display: block;
+ position: absolute;
+ left: 800px;
+ background: url('../img/smile.png');
+ animation: faces5 2s steps(1) infinite;
+}
+@keyframes faces5 {
+  0% {background-position: -1920px 0px;}
+  33% {background-position: -2080px 0px;}
+  66% {background-position: -2240px 0px;}
+}
